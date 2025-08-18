@@ -1,3 +1,5 @@
+package main.java;
+
 import java.util.Scanner;
 import java.util.Random;
 
@@ -29,9 +31,9 @@ public class TutorAlgebra {
      * Muestra el mensaje de bienvenida y explicación del programa
      */
     public static void mostrarBienvenida() {
-        System.out.println("===========================================");
-        System.out.println("    TUTOR DE ÁLGEBRA - ECUACIONES LINEALES");
-        System.out.println("===========================================");
+        System.out.println("=============================================");
+        System.out.println("    TUTOR DE ÁLGEBRA - ECUACIONES LINEALES   ");
+        System.out.println("=============================================");
         System.out.println("¡Bienvenido! Este programa te ayudará a practicar");
         System.out.println("ecuaciones lineales de la forma: y = mx + b");
         System.out.println();
@@ -263,8 +265,8 @@ public class TutorAlgebra {
      */
     public static void mostrarPuntuacionFinal() {
         System.out.println("\n===========================================");
-        System.out.println("           PUNTUACIÓN FINAL");
-        System.out.println("===========================================");
+        System.out.println("           PUNTUACIÓN FINAL                  ");
+        System.out.println("=============================================");
 
         if (preguntasIntentadas > 0) {
             double porcentajeGeneral = (double) preguntasCorrectas / preguntasIntentadas * 100;
@@ -287,6 +289,6 @@ public class TutorAlgebra {
 
         System.out.println("\n¡Gracias por usar el Tutor de Álgebra!");
         System.out.println("¡Sigue practicando para mejorar tus habilidades!");
-        System.out.println("===========================================");
+        System.out.println("================================================");
     }
 }
